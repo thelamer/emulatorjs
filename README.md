@@ -8,5 +8,6 @@ THIS WILL ONLY DECRYPT THE `emulator.js` FILE!! `loader.js` DECRYPTION IS NOT YE
 
 In this case, this tool will decrypt `_0x16a2('0x59','Qz)N')` to `prototype` and  `_0x16a2('0x5a','LN43')` to `getType`
 
+Only support for decrypting the `_0x16a2` function
 
 To use in browser, go to https://raw.githack.com/ethanaobrien/emulatorjs/decrypt/index.html
