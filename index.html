@@ -1,0 +1,27 @@
+<html>
+<body>
+<div id='app'>
+
+Value A: <input type='text' id='value1'></input><br><br>
+Value B: <input type='text' id='value2'></input><br><br><br>
+<button onclick='decryptButton()'>decrypt</button><br><br><br><br>
+<p id='out'></p>
+
+
+</div>
+
+<script src='index.js'></script>
+<script>
+function decrypt(a, b) {
+	return _0x16a2(a, b)
+}
+function decryptButton() {
+	var a = document.getElementById('value1').value
+	var b = document.getElementById('value2').value
+	document.getElementById('out').innerHTML = decrypt(a, b)
+	document.getElementById('value1').value = ''
+	document.getElementById('value2').value = ''
+}
+</script>
+</body>
+</html>
